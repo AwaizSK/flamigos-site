@@ -163,7 +163,7 @@ const EventRegistrationForm = () => {
                     <button
                         type="submit"
                         disabled={isSubmitting}
-                        className="w-full bg-black text-white py-2 rounded-md hover:bg-gray-800 transition disabled:opacity-60 disabled:cursor-not-allowed"
+                        className="w-full bg-gray-950 text-white py-2 rounded-md hover:bg-gray-800 transition disabled:opacity-60 disabled:cursor-not-allowed"
                     >
                         {isSubmitting ? "Submitting..." : "Submit Registration"}
                     </button>
